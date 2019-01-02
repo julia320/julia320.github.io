@@ -1,2 +1,3 @@
-# julia320.github.io
-my website
+# juliabristow.github.io
+
+Julia Bristow's website
