@@ -297,6 +297,69 @@
         	</div>
         </section>
         <!--================End Home Gallery Area =================-->
+
+
+        <!--================Contact Area =================-->
+        <section class="contact_area p_120">
+            <div class="container">
+            	<div class="main_title">
+        			<h2>Contact Me</h2>
+        		</div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="contact_info">
+                            <div class="info_item">
+                                <i class="lnr lnr-home"></i>
+                                <h6>Washington, D.C, United States</h6>
+                                <p></p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-phone-handset"></i>
+                                <h6><a href="#">(804) 393 4566</a></h6>
+                                <p></p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-envelope"></i>
+                                <h6><a href="#">julia_bristow@gwu.edu</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <p></p>
+                <div id="mapBox" class="mapBox" 
+                    data-lat="38.899504" 
+                    data-lon="-77.051026" 
+                    data-zoom="13" 
+                    data-info="2350 H Street NW, Washington, D.C. 20052, USA"
+                    data-mlat="38.899504"
+                    data-mlon="-77.051026">
+                </div>
+            </div>
+        </section>
+        <!--================End Contact Area =================-->
         
                 
         <!--================Footer Area =================-->
@@ -352,9 +415,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         
         
         
-        
-        
-        
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery-3.3.1.min.js"></script>
@@ -371,6 +431,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
         <script src="vendors/counter-up/jquery.counterup.min.js"></script>
         <script src="js/mail-script.js"></script>
+        <script src="js/theme.js"></script>
+        <!-- contact js -->
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/contact.js"></script>
+        <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCN_kTSG-r0vQLm9FHzekOnayXKHjbkS0Q"></script>
+        <script src="js/gmaps.min.js"></script>
         <script src="js/theme.js"></script>
     </body>
 </html>
