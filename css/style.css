@@ -49,6 +49,17 @@ Table of Content:
   margin: 0px;
   padding: 0px; }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em
+}
+
+.center2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
 a {
   text-decoration: none;
   transition: all 0.3s ease-in-out; }
