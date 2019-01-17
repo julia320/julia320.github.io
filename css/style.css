@@ -50,9 +50,8 @@ Table of Content:
   padding: 0px; }
 
 .center {
-  margin-left: auto;
-  margin-right: auto;
-  width: 10em
+  text-align: center;
+  margin-top: 10px;
 }
 
 .center2 {
@@ -96,6 +95,10 @@ button:focus {
 .p_100 {
   padding-top: 100px;
   padding-bottom: 100px; }
+
+.p_50 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .pad_top {
   padding-top: 120px; }
